@@ -10,9 +10,6 @@
 
 module.exports = (robot) ->
 
-  robot.respond /lunch\?/i, (res) ->
-    res.reply "LPS Time!"
-
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
